@@ -1,0 +1,62 @@
+main{
+  font-size: 16px; 
+  font-famiy: karla;
+}
+body{ 
+margin: 0px
+}
+.top{
+    padding-left: 5%;
+  margin: 4%
+
+}
+
+h1{
+  color: rgb(41, 179, 176);
+}
+.top h2{
+  color: rgb(192, 223, 52);
+}
+.top p{
+  font-size: 1.2rem;
+}
+.boxes{
+  display: flex;
+  width: 100vw;
+  color: white;  
+  margin : 0;
+  position : absolute;
+  bottom : 0px;
+}
+.box-left{
+  flex: 50%;
+  background-color :rgb(41, 179, 176);
+  padding-left:8%;
+  padding-top: 3%;
+  line-height:250%;
+  
+}
+.box-right{
+  flex: 50%;
+  background-color :rgba(41, 179, 176,.7);
+  padding-left:10%;
+  padding-top:4%;
+  line-height:15px;
+  
+}
+strong{
+  font-size:2rem;
+}
+button{
+  width:65%;
+  height:15%;
+  text-align: center;
+  margin-left: 5%;
+  background-color: rgb(192, 223, 52);
+  color: white;
+  border: none;    
+}
+button:hover {
+  cursor : pointer;
+  
+}
